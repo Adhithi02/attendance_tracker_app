@@ -1,6 +1,6 @@
-# 📱 Attendance Calculator App - Complete Setup Guide
+#  Attendance Tracker App - Complete Setup Guide
 
-## 📋 Table of Contents
+##  Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Project Structure](#project-structure)
 3. [Database Setup](#database-setup)
@@ -13,7 +13,7 @@
 
 ---
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 ### Required Software:
 - **MySQL Server** (8.0 or higher)
@@ -44,7 +44,7 @@ attendance_calculator/
 │   ├── requirements.txt        # Python dependencies
 │   └── init_db.sql            # Database initialization
 │
-├── mobile_app/                 # Flutter Frontend
+├── frontend/                 # Flutter Frontend
 │   ├── lib/
 │   │   ├── main.dart          # App entry point
 │   │   ├── models/            # Data models
@@ -73,7 +73,7 @@ attendance_calculator/
 
 ---
 
-## 🗄️ Database Setup
+##  Database Setup
 
 ### Step 1: Install MySQL
 
@@ -226,7 +226,7 @@ You should see automatic API documentation!
 
 ---
 
-## 📱 Flutter App Setup
+##  Flutter App Setup
 
 ### Step 1: Verify Flutter Installation
 
@@ -239,7 +239,7 @@ Fix any issues shown.
 ### Step 2: Navigate to Mobile App Folder
 
 ```bash
-cd mobile_app
+cd frontend
 ```
 
 ### Step 3: Install Dependencies
@@ -307,7 +307,7 @@ flutter run
 
 ---
 
-## 🚀 Running the Application
+##  Running the Application
 
 ### Complete Startup Sequence:
 
@@ -320,7 +320,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 **Terminal 2: Start Flutter App**
 ```bash
-cd mobile_app
+cd frontend
 flutter run
 ```
 
@@ -348,7 +348,7 @@ flutter run
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Test Backend APIs
 
@@ -388,7 +388,7 @@ POST /api/attendance
 
 ---
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues:
 
@@ -478,7 +478,7 @@ flutter run
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Current Features:
 
@@ -520,7 +520,7 @@ flutter run
 
 ---
 
-## 📊 API Endpoints Reference
+##  API Endpoints Reference
 
 ### Subjects
 
@@ -556,7 +556,7 @@ flutter run
 
 ---
 
-## 🎓 Usage Tips
+##  Usage Tips
 
 ### Best Practices:
 
@@ -584,71 +584,6 @@ N = floor[(Attended - Required% × Total) / Required%]
 ```
 
 ---
-
-## 💡 Tips for Presentation
-
-### Demo Script:
-
-1. **Start**: Show dashboard with sample data
-2. **Add Subject**: Live demo adding a new subject
-3. **Show Timetable**: Display weekly schedule
-4. **Mark Attendance**: Quick attendance marking demo
-5. **Analytics**: Highlight percentage and predictions
-6. **Explain Calculations**: Show the formulas in action
-
-### Key Points to Mention:
-
-- ✅ Solves real student problem
-- ✅ Saves time vs manual tracking
-- ✅ Provides predictive insights
-- ✅ Works offline (local database)
-- ✅ Clean, modern UI
-- ✅ Complete CRUD operations
-- ✅ RESTful API architecture
-
----
-
-## 📝 Project Report Structure
-
-1. **Abstract** - Brief overview
-2. **Introduction** - Problem statement
-3. **Literature Review** - Existing solutions
-4. **System Design** - Architecture diagrams
-5. **Implementation** - Code explanation
-6. **Database Design** - ER diagrams, schemas
-7. **Testing** - Test cases and results
-8. **Results** - Screenshots, analytics
-9. **Future Work** - Enhancements
-10. **Conclusion** - Summary and impact
-
----
-
-## 📞 Support
-
-For issues or questions:
-- Check [Troubleshooting](#troubleshooting) section
-- Review API docs: http://localhost:8000/docs
-- Check Flutter logs: `flutter run -v`
-
----
-
-## 🎉 Success Checklist
-
-Before presenting, ensure:
-
-- [ ] MySQL is running
-- [ ] Backend server is running on port 8000
-- [ ] API docs are accessible at /docs
-- [ ] Flutter app connects to backend
-- [ ] Sample data is loaded
-- [ ] All screens work properly
-- [ ] Calculations are accurate
-- [ ] No console errors
-- [ ] Demo script is prepared
-- [ ] Screenshots are ready
-
----
-
 ## 📄 License
 
 This project is for educational purposes.
