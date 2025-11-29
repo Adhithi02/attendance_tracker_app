@@ -8,7 +8,7 @@ def get_db_connection():
             host='localhost',
             database='attendance_db',
             user='root',  # Change this
-            password='Adhithi@2005'  # Change this
+            password='xxxxxxxxxxxx'  # Change this
         )
         if connection.is_connected():
             return connection
